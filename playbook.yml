@@ -1,0 +1,7 @@
+---
+- name: Demo Playbook
+  hosts: localhost
+  tasks:
+    - name: Print a message
+      debug:
+        msg: "Hello from Ansible!"
